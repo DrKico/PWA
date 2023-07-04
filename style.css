@@ -13,7 +13,7 @@ ul {
 
 li {
     float: left;
-    width: 20%;
+    width: 16%;
     border: white;
     text-align: center;
     margin-left: 0;
@@ -72,4 +72,5 @@ footer p {
     align-items: center;
     min-height: 100vh;
 }
+
   

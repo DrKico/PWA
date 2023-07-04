@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>  
+<html>
 <head>
     <link rel="stylesheet" href="style.css?v=5">
     <meta charset="utf-8">
@@ -23,44 +23,11 @@
             </ul>
         </nav>
     </header>
-<?php
-include 'connect.php';
-define('UPLPATH', 'uploads/');
-?>
-<section class="sport">
-<?php
-$query = "SELECT * FROM projektpwa WHERE arhiva=0 AND kategorija='kultura' LIMIT 4";
-$result = mysqli_query($dbc, $query);
-$i = 0;
-
-echo '<div class="container">';
-echo '<div class="row">';
-
-while ($row = mysqli_fetch_array($result)) {
-    if ($i % 3 === 0 && $i !== 0) {
-        echo '</div>';
-        echo '<div class="row">'; 
-    }
-
-    echo '<div class="col-lg-4">';
-    echo '<img src="' . UPLPATH . $row['slika'] . '">';
-    echo '<h4><a href="clanak.php?id=' . $row['id'] . '">' . $row['naslov'] . '</a></h4>';
-    echo '</div>';
-
-    $i++;
-}
-
-echo '</div>'; 
-echo '</div>'; 
-?>
-
-</section>
 
     <footer>
         <div class="container">
-          <p>Weiltere Online-Angebotr der Axel Springer SE</p>
+            <p>Weiltere Online-Angebotr der Axel Springer SE</p>
         </div>
     </footer>
-      
 </body>
 </html>

@@ -16,7 +16,7 @@
         </div>
         <nav>
             <ul>
-                <li><a class="nav-btn" href="pocetna.html">Home</a></li>
+                <li><a class="nav-btn" href="pocetna.php">Home</a></li>
                 <li><a class="nav-btn" href="sport.php">Berlin-Sport</a></li>
                 <li><a class="nav-btn" href="kultura.php">Kulut und Show</a></li>
                 <li><a class="nav-btn" href="administracija.php">Administacija</a></li>
