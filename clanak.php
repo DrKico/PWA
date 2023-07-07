@@ -19,6 +19,7 @@
                 <li><a class="nav-btn" href="kultura.php">Kulut und Show</a></li>
                 <li><a class="nav-btn" href="administracija.php">Administacija</a></li>
                 <li><a class="nav-btn" href="unos.php">Unos</a></li>
+                <li><a class="nav-btn" href="registracija.php">Registracija</a></li>
             </ul>
         </nav>
     </header>
